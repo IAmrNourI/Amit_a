@@ -1,0 +1,86 @@
+body{
+    background-image: url(Images/body_back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+header {   
+    background-color: rgba(0, 0, 0, 0.75); 
+    margin-bottom: 50px;
+}
+
+.logo{
+    width: 100px;
+    height: 40px;
+}
+
+nav{
+    float: right;
+
+}
+
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    margin-inline-start: 5px;
+    margin-inline-end: 5 px;
+    padding-inline-start: 50px;
+}
+
+
+ul li{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+section{
+    width: 100%;
+    text-align: center;
+    scroll-margin-top: 15%;
+}
+
+section div{
+
+    float: right;
+    margin: 0.75%;
+    width: 22%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10%;
+    background-image: url(Images/div_back.webp);
+    padding: 10px;
+    
+
+}
+
+section div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+section div h3{
+    color: white;
+    text-align: left;
+}
+section div p{
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
